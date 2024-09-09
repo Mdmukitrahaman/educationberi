@@ -1,0 +1,72 @@
+#header{
+  border-bottom: 1px solid rgba(0,0,0.3);
+  display:;
+}
+#header .header-us a{
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #E72D41;
+  padding: 8px 50px;
+  color: #fff;
+  background: #E72D41;
+  transition: .3s ease-in;
+
+  &:hover{
+  border-radius: 15px 0px 15px 0px;
+  }
+}
+.header-contact{
+  padding: 20px 0px;
+}
+#navbar .nav-link,
+#navbar .dropdown-item {
+  padding: var(--bs-nav-link-padding-y) 20px;
+  text-transform: uppercase;
+  margin: 0px 10px;
+
+  &:hover{
+    color: #E72D41;
+  }
+  &.active{
+    color: #E72D41;
+  }
+}
+
+#gelary .gelary-photo{
+  height: 435px;
+  width: 354px;
+  box-sizing: border-box;
+  border: .5px solid #F8F9FA;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #F8F9FA;
+  & a{
+  text-decoration: none;
+  color: black;
+  }
+}
+#gelary .gelary-photo img{
+  border-radius: 10px 10px 0px 0px;
+}
+#about{
+  /* height: 980px; */
+  background-color: #206855;
+}
+#about .about-photo img{
+  border-radius: 60px 0px 60px 0px;
+}
+.about-icon{
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+.about-content,
+.book-content{
+  color: #fff;
+}
+.book-content i{
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  padding: 20px 20px;
+  color: #E72D41;
+  background: #fff;
+  border-radius: 10px 0px 10px 0px;
+}
